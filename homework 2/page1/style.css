@@ -1,0 +1,169 @@
+.golova {
+    display: grid;
+    grid-template-columns: 15% 47% 12% 12% 12%;
+    grid-template-rows: 25% 25% 25% 25%;
+    height: 50px;
+    width: 1270px;
+}
+.p1 {
+    border: solid black 2px;
+    grid-column: 1;
+    grid-row: 1;
+    height: 50px;
+    width: 188px;
+    background-color: chartreuse;
+}
+.p2 {
+    border: solid black 2px;
+    grid-column: 5;
+    grid-row: 1;
+    height: 50px;
+    text-align: center;
+    width: 150px;
+    background-color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+.p3 {
+    border: solid black 2px;
+    grid-column: 4;
+    grid-row: 1;
+    height: 50px;
+    text-align: center;
+    width: 155px;
+    background-color: red;
+}
+.p4 {
+    border: solid black 2px;
+    grid-column: 3;
+    grid-row: 1;
+    height: 50px;
+    text-align: center;
+    width: 155px;
+    background-color: red;
+}
+.p6 {
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+    grid-column: 2;
+    grid-row: 1;
+    height: 54px;
+    text-align: center;
+    width: 605px;
+    background-color: lightgreen;
+}
+/* help me Zinits */
+.skelet {
+    display: grid;
+    grid-template-columns: 25% 3% 34% 6% 34%;
+    grid-template-rows: 9.5% 9.5% 9.5% 9.5% 9.5% 9.5% 9.5% 9.5% 9.5% 9.5%;
+    height: 500px;
+    width: 1245px;
+    background-color: lightcoral;
+}
+.h1 {
+    border: solid black 2px;
+    grid-column: 1;
+    grid-row: 1;
+    height: 100px;
+    width: 250px;
+    background-color: lightsalmon;
+}
+.h2 {
+    border: solid black 2px;
+    grid-column: 1;
+    grid-row: 2;
+    height: 100px;
+    width: 250px;
+    background-color: lightsalmon;
+}
+.h3 {
+    border: solid black 2px;
+    grid-column: 1;
+    grid-row: 3;
+    height: 100px  ;  
+    grid-row: 1;
+    width: 250px;
+    background-color: lightsalmon;
+}
+.h4 {
+    border: solid black 2px;
+    grid-column: 1;
+    grid-row: 4;
+    height: 100px;
+    width: 250px;
+    background-color: lightsalmon;
+}
+.h5 {
+    border: solid black 2px;
+    grid-column: 1;
+    grid-row: 5;
+    height: 100px;
+    width: 250px;
+    background-color: lightsalmon;
+}
+.h6 {
+    border: solid black 2px;
+    grid-column: 1;
+    grid-row: 6;
+    height: 100px;
+    width: 250px;
+    background-color: lightsalmon;
+}
+.h7 {
+    border: solid black 2px;
+    grid-column: 1;
+    grid-row: 7;
+    height: 100px;
+    width: 250px;
+    background-color: lightsalmon;
+}
+.h8 {
+    border: solid black 2px;
+    grid-column: 1;
+    grid-row: 8;
+    height: 100px;
+    width: 250px;
+    background-color: lightsalmon;
+}
+.h9 {
+    border: solid black 2px;
+    grid-column: 1;
+    grid-row: 9;
+    height: 100px;
+    width: 250px;
+    background-color: lightsalmon;
+}
+.h10 {
+    border: solid black 2px;
+    grid-column: 1;
+    grid-row: 10;
+    height: 100px;
+    width: 250px;
+    background-color: lightsalmon;
+}
+.a1 {
+    width: 250px;
+    height: 50px;
+}
+.glava1 {
+    border: solid black 2px;
+    background-color: red;
+    grid-column: 3;
+    grid-row: 2;
+    border-radius: 30px;
+    height: 350px;
+    width: 350px;
+} 
+.glava2 {
+    border: solid black 2px;
+    background-color: red;
+    grid-column: 5;
+    grid-row: 2;
+    border-radius: 30px;
+    height: 350px;
+    width: 350px;
+}
+.a2 {
+    text-align: center;
+    background-color: lightgreen;
+}

@@ -1,0 +1,26 @@
+.box {
+    height: 500px;
+    width: 1281px;
+    background-color: aquamarine;
+    border-radius: 2px;
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: 33% 34% 33%;
+}
+.box-1 {
+    background-color: black;
+    grid-column: 2 / span 3;
+    grid-row: 2;
+}
+.img-1 {
+    background-image: url(http://placekitten.com/500/500);
+    grid-column: 2;
+    grid-row: 1 / span 3;
+    background-repeat: no-repeat;
+    background-size:cover;
+    transform: scaleX(1);
+    height: 500px;
+    width: 500px; 
+    object-fit: fill;
+    background-color: cadetblue;
+}

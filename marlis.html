@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .table 
+    {
+        display: table;
+
+    }
+    .table-col 
+    {
+        display: table-row;
+    }
+    .table-row 
+    {
+        display: table-cell;
+        width: 50px;
+        height: 50px;
+        border: 2px solid red;
+        transition: 0.5s;
+    }
+    .table-row:hover
+    {
+        background: #fffBB0;
+        outline: 5px solid tomato;
+        border-radius: 25px;
+        transition: 0.5s;
+    }
+
+</style>
+<body>
+<div style="table" id="table">
+
+</div>
+</body>
+<script>
+   text="";
+    for(i=1;i<10;i++)
+    {
+        text=text+"<div class=\"table-col\">\n";
+            for(j=1;j<10;j++)
+            {
+                text=text+"<div class=\"table-row\" style=\"hover:border-radius: "+Math.round(Math.random()*20+5)+"px;\"></div>\n";
+            }
+        text=text+"</div>\n";
+    }
+    document.getElementById("table").innerHTML=text;
+</script>
+</html>

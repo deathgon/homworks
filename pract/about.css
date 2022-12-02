@@ -1,0 +1,299 @@
+@keyframes pov {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #292325;
+    padding: 0;
+    background-image: url(./istockphoto-1094453686-170667a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.backs {
+    display: inline;
+}
+
+.back {
+    border: none;
+    width: 90px;
+    height: 30px;
+    background: none;
+    border-radius: 40px;
+    font-size: x-large;
+    position: absolute;
+    z-index: 1000;
+    padding: 20px;
+    padding-top: 10px;
+    color: blue;
+}
+
+.back:hover {
+    border: none;
+    color: black;
+    background-color: white;
+    transition: 1.5s;
+}
+
+svg {
+    margin-top: 5px;
+}
+
+/*intro*/
+.intro {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    height: 700px;
+    color: white;
+}
+
+.pag1 {
+    margin: 50px;
+    margin-top: 200px;
+    width: 400px;
+    height: 200px;
+}
+
+.pag2 {
+    margin: 150px;
+    margin-top: 150px;
+    width: 100px;
+    height: 100px;
+}
+
+.img {
+    border-radius: 50%;
+}
+
+.img:hover {
+    animation: pov 1s infinite;
+}
+
+.hi {
+    position: relative;
+    top: 25px;
+    font-size: 20px;
+}
+
+.name {
+    font-size: 50px;
+}
+
+.job {
+    color: purple;
+    font-size: 20px;
+    position: relative;
+    bottom: 25px;
+    left: 180px;
+    color: #fff;
+    text-shadow:
+        0 0 17px purple,
+        0 0 110px purple,
+        0 0 121px purple,
+        0 0 142px purple,
+        0 0 182px purple,
+        0 0 192px purple,
+        0 0 202px purple,
+        0 0 251px purple;
+}
+.job:hover + .box {
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+}
+.box {
+    font-size: 0px;
+    position: relative;
+    bottom: 68px;
+    left: 370px;
+}
+
+/*history*/
+.history {
+    height: 1000px;
+    width: 100%;
+}
+.box1 {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding-top:10px;
+    margin: 0 auto;
+    width: 80%;
+    height: 150px;
+    box-shadow: 
+    0 0 4px #fff,
+    0 0 1px #fff,
+    0 0 11px #fff,
+    0 0 19px #f09,
+    0 0 40px #f09,
+    0 0 80px #f09,
+    0 0 90px #f09,
+    0 0 100px #f09;
+    border-radius: 50px;
+    padding: 25px;
+    transition: 1s;
+}
+.box1:hover {
+    border-radius: 100px;
+    height: 300px;
+    font-size: 25px;
+}
+.topic1 {
+    position: absolute;
+    z-index: 1000;
+    top :620px;
+    text-shadow: 0 0 4px #fff,
+    0 0 11px #fff,
+    0 0 19px #fff,
+    0 0 40px #f09,
+    0 0 80px #f09,
+    0 0 90px #f09,
+    0 0 100px #f09,
+    0 0 150px #f09;
+    font-size: 50px;
+    margin-left: 45%;
+}
+.box2 {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding-top:10px;
+    margin: 0 auto;
+    width: 80%;
+    height: 150px;
+    box-shadow: 
+    0 0 4px #fff,
+      0 0 1px #fff,
+      0 0 11px #fff,
+      0 0 19px #f09,
+      0 0 40px #f09,
+      0 0 80px #f09,
+      0 0 90px #f09,
+      0 0 100px #f09;
+    border-radius: 50px;
+    padding: 25px;
+    transition: 1s;
+    margin-top: 300px;
+}
+.box2:hover {
+    border-radius: 100px;
+    height: 300px;
+    font-size: 25px;
+}
+.box1:hover + .topic2 {
+    top: 1270px;
+}
+.topic2 {
+    transition: 1s;
+    position: absolute;
+    z-index: 1000;
+    top :1120px;
+    text-shadow: 0 0 4px #fff,
+    0 0 11px #fff,
+    0 0 19px #fff,
+    0 0 40px #f09,
+    0 0 80px #f09,
+    0 0 90px #f09,
+    0 0 100px #f09,
+    0 0 150px #f09;
+    font-size: 50px;
+    margin-left: 45%;
+}
+/*skills*/
+.skills {
+    margin-top: 0px;
+    color: white;
+}
+#bars {
+	margin: 2em auto;
+	max-width: 960px;
+	overflow: hidden;
+}
+
+.bar {
+	float: left;
+	width: 40%;
+	text-align: center;
+}
+
+.bar h3 {
+	font-size: 40px;
+	font-weight: normal;
+	margin: 0;
+	text-transform: uppercase;
+    font-size: 25px;
+    margin: 0 auto;
+}
+
+.bar-circle {
+    box-shadow: 0 0 4px #fff,
+    0 0 1px #fff,
+    0 0 1px #fff,
+    0 0 4px red,
+    0 0 8px red,
+    0 0 9px red,
+    0 0 10px red,
+    0 0 15px red;
+	display: block;
+	margin: 0.7em auto;
+    border-radius:50px;
+}
+.a {
+    margin: 0 auto;
+    padding:70px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 40% 10% 40%;
+    height:500px;
+    width: 80%;
+    color: white;
+    font-size: 50px;
+}
+.a1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+.a2 {
+    grid-row: 1;
+    grid-column: 3;
+}
+.a3 {
+    grid-row: 1;
+    grid-column: 5;
+}
+.a4 {
+    grid-row: 2;
+    grid-column: 2;
+}
+.a5 {
+    grid-row: 2;
+    grid-column: 4;
+}
+/*I Try to do normal skill bar but sorry Zintis if you read this commet  tell me about it pls*/

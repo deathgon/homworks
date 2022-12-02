@@ -1,0 +1,221 @@
+/*experemetns*/
+.alk {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/*root*/
+:root {
+    --dark:#000
+}
+
+
+
+
+
+/*Nachalo*/
+.nachalo {
+    grid-column: 2;
+    position: absolute;
+    z-index: 10000;
+    box-shadow: 1px 1px 1px whitesmoke;
+    width: 100%;
+    height: 50px;
+    display: grid;
+    color: white;
+    grid-template-columns:10% 10% 42% 6% 8% 8% 8% 10%;
+}
+.logo {
+    grid-column: 2;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.home {
+    grid-column: 4;
+}
+.about {
+    grid-column: 5;
+}
+.hobby {
+    grid-column: 6;
+}
+.contact {
+    grid-column: 7;
+}
+.ld {
+    border-radius: 20px;
+    grid-column: 9;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.f {
+    background-color: black;
+    color: white;
+    display: inline;
+    border: none;
+    border-radius: 50%;
+}
+.g {
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    display: inline;
+}
+.a {
+    margin-top: 12px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.a:hover {
+    font-size: 20px;
+}
+
+
+
+
+
+
+/*intro*/
+#home {
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 10% 30% 10% 40% 10%;
+    grid-template-rows: 30% 60% 10%;
+    color: white;
+    background: url(./old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28313.webp) no-repeat;
+    background-size: cover;
+}
+.me {
+    grid-column: 2;
+    grid-row: 2;
+}
+.fo {
+    margin-left: 70px;
+    margin-top: 70px;
+}
+.hel {
+    font-size: 15px;
+}
+.name {
+    margin-top: -50px;
+    font-weight: bold;
+}
+.job {
+    margin-top: 1px;
+    font-weight: 400;
+}
+.but {
+    border: none;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 10px;
+}
+.but:hover {
+    padding: 15px;
+}
+.icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 150px;
+}
+.hob {
+    display: flex;
+    justify-content: center;
+}
+.dark {
+    background-color: var(--dark);
+    color: white;
+}
+
+
+
+
+
+/*I love things*/
+.boh {
+    background: url(./photo-1541280910158-c4e14f9c94a3.jpeg) no-repeat;
+    background-size: cover;
+}
+.thin {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.line {
+    height: 100px;
+    width: 100%;
+}
+.card {
+    text-align: center;
+    color: black;
+    border: 2px white solid;
+    box-shadow: 2px 2px 2px white,5px 5px 5px gray;
+    margin-bottom: 100px;
+}
+.card:hover {
+    box-shadow: 5px 5px 5px purple;
+    width: 30%;
+    height: 30%;
+}
+.texs {
+    font-size: 10px;
+}
+.abo {
+    background: url(./Без\ названия.jpeg) no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+
+
+
+
+/*about*/
+.projects {
+    height: 2000px;
+    width: 100%;
+    margin-top: 200px;
+}
+.im {
+    border-radius: 50%;
+    display: inline-block;
+    border: white 5px solid;
+    margin-top: 20px;
+}
+.m {
+    display: inline-block;
+    width: 500px;
+    height: 200px;
+}
+.projects  {
+    margin-top: 200px;
+    background-color: white;
+    align-items: center;
+}
+
+
+
+
+
+/*light and dark*/
+.buts {
+    background-color: white;
+    color: black;
+}
+.butc {
+    background-color: #212529;
+    color: white;
+}

@@ -1,0 +1,174 @@
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: grey;
+}
+.image1 {
+    grid-column: 1;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+.image2 {
+    grid-column: 4;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+h1 {
+    grid-column: 3;
+    grid-row: 1;
+}
+p {
+    grid-column: 1/span3;
+    grid-row: 2;
+}
+.golovo {
+    display: grid;
+    grid-template-columns: 15% 35% 15% 15% 15%;
+    grid-template-rows: 10% 90%;
+    width: 1180px;
+    height: 70px;
+    padding-bottom: 30px;
+    background-color: lawngreen;
+    margin-top: auto 0;
+}
+.inter {
+    grid-column: 1;
+    grid-row: 1;
+    width: 150px;
+    height: 45px;
+    background-color: lightseagreen;
+    border-radius: 35%;
+    border: solid black 2px;
+    text-align: center;
+    padding-top: 25px;
+}
+.link1 {
+    grid-row: 1;
+    grid-column: 3;
+    width: 165px;
+    height: 45px;
+    background-color: lightseagreen;
+    border: solid black 2px;
+    text-align: center;
+    padding-top: 25px;
+}
+.link2 {
+    grid-row: 1;
+    grid-column: 4;
+    width: 165px;
+    height: 45px;
+    background-color: lightseagreen;
+    border: solid black 2px;
+    text-align: center;
+    padding-top: 25px;
+}
+.link3 {
+    grid-row: 1;
+    grid-column: 5;
+    width: 165px;
+    height: 45px;
+    background-color: lightseagreen;
+    border: solid black 2px;
+    text-align: center;
+    padding-top: 25px;
+}
+.image {
+    background-image: url(http://placekitten.com/1180/500);
+    width: 1180px;
+    color: lightgoldenrodyellow;
+    text-align: center;
+    padding-top: 250px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 250px;
+    background-color: aquamarine;
+}
+.columns {
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    width: 1180px;
+    height: 1100px;
+}
+.column1 {
+    background-color: aquamarine;
+    grid-column: 1;
+    grid-row: 1;
+    width: 300px;
+    height: 500px;
+    border-radius: 50px;
+    border: solid red 3px;
+    display: grid;
+    grid-template-columns: 25% 5% 40% 25%;
+    grid-template-rows: 25% 75%;
+}
+.column2 {
+    background-color: aquamarine;
+    grid-column: 2;
+    grid-row: 1;
+    width: 300px;
+    height: 500px;
+    border-radius: 50px;
+    border: solid red 3px;
+    display: grid;
+    grid-template-columns: 25% 5% 40% 25%;
+    grid-template-rows: 25% 75%;
+}
+.column3 {
+    background-color: aquamarine;
+    grid-column: 3;
+    grid-row: 1;
+    width: 300px;
+    height: 500px;
+    border-radius: 50px;
+    border: solid red 3px;
+    display: grid;
+    grid-template-columns: 25% 5% 40% 25%;
+    grid-template-rows: 25% 75%;
+}
+.column4 {
+    background-color: aquamarine;
+    grid-column: 1;
+    grid-row: 2;
+    width: 300px;
+    height: 500px;
+    border-radius: 50px;
+    border: solid red 3px;
+    display: grid;
+    grid-template-columns: 25% 5% 40% 25%;
+    grid-template-rows: 25% 75%;
+}
+.column5 {
+    background-color: aquamarine;
+    grid-column: 2;
+    grid-row: 2;
+    width: 300px;
+    height: 500px;
+    border-radius: 50px;
+    border: solid red 3px;
+    display: grid;
+    grid-template-columns: 25% 5% 40% 25%;
+    grid-template-rows: 25% 75%;
+}
+.column6 {
+    background-color: aquamarine;
+    grid-column: 3;
+    grid-row: 2;
+    width: 300px;
+    height: 500px;
+    border-radius: 50px;
+    border: solid red 3px;
+    display: grid;
+    grid-template-columns: 25% 5% 40% 25%;
+    grid-template-rows: 25% 75%;
+}
+.end {
+    height: 40px;
+    padding-top: 10px;
+    background-color: lightgreen;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}

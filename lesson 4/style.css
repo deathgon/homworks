@@ -1,0 +1,10 @@
+* {
+    outline: 1px solid black;
+}
+.flwxbox {
+    display: flex;
+    justify-content: space-between;
+    background-color: yellowgreen;
+}
+grid-tenpe
+

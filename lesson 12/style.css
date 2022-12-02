@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+}
+h1,p {
+    height:100px;
+    width: 1000px;
+    text-shadow: 5px 5px 5px white, 10px 10px 10px grey;
+    box-shadow: 2px 2px 2px white;
+    text-align: center;
+    margin: 5px;
+    font-size: 50px;
+    border: 2px solid black;
+}
